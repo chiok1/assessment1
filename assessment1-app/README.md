@@ -1,8 +1,29 @@
-# React + Vite
+# GDS GCC SWE Assessment 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+### Prerequisites
+- NodeJS 18.* minimum
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Run Locally
+1. Clone the repository
+2. Navigate into the assessment1-app directory
+3. Run the following command to install the required dependencies:
+```npm install```
+4. Run the following command to start the development server:
+```npm run dev```
+
+## Page Decription
+### 1. Add an Author Name
+- The user can add an author name to the page by typing in the input field and clicking the 'Submit' button.
+- The author's name will be displayed underneath the text input field.
+- There are 3 possible error messages that can be displayed:
+  - 'Please enter an author name' is shown when the input field is empty
+  - 'Please enter a valid name' is shown when the input field contains characters other than letters and spaces
+  - 'Author already submitted' is shown when the user tries to submit the same author name more than once (case sensitive)
+
+### Display Author Names
+- Author data retrieved from the given API is diplayed in the table below the input field.
+
+## For best results, please ensure system colours are set to dark mode.
+
