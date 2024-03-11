@@ -74,7 +74,7 @@ function App() {
               <SubmittedAuthorsList authors={submittedAuthors}/>
             </div>
             
-          <p className='font-semibold text-2xl mb-2 text-left pl-2  dark:text-white'>Authors</p>
+          <p className='font-semibold text-2xl mb-2 text-left pl-2  dark:text-white'>Users</p>
 
           <TableDisplay />
 
