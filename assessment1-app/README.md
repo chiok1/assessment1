@@ -14,7 +14,7 @@
 ```npm run dev```
 
 ## Page Decription
-### 1. Add an Author Name
+###1. Add an Author Name
 - The user can add an author name to the page by typing in the input field and clicking the 'Submit' button.
 - The author's name will be displayed underneath the text input field.
 - There are 3 possible error messages that can be displayed:
@@ -22,8 +22,8 @@
   - 'Please enter a valid name' is shown when the input field contains characters other than letters and spaces
   - 'Author already submitted' is shown when the user tries to submit the same author name more than once (case sensitive)
 
-### Display Author Names
-- Author data retrieved from the given API is diplayed in the table below the input field.
+###2. Display User Names
+- User data retrieved from the given API is diplayed in the table below the input field.
 
 ## For best results, please ensure system colours are set to dark mode.
 
